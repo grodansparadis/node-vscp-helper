@@ -1,0 +1,48 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug index.js",
+            "preLaunchTask": "npm: build:dev",
+            "program": "/usr/bin/node",
+            "args": [
+               "/home/akhe/development/VSCP/node-canal/index.js"
+            ]
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug samples polling.js",
+            "preLaunchTask": "npm: build:dev",
+            "program": "/usr/bin/node",
+            "args": [
+               "/home/akhe/development/VSCP/node-canal/samples/polling.js"
+            ]
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug samples callback.js",
+            "preLaunchTask": "npm: build:dev",
+            "program": "/usr/bin/node",
+            "args": [
+               "/home/akhe/development/VSCP/node-canal/samples/callback.js"
+            ]
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug samples send.js",
+            "preLaunchTask": "npm: build:dev",
+            "program": "/usr/bin/node",
+            "args": [
+               "/home/akhe/development/VSCP/node-canal/samples/send.js"
+            ]
+        }
+    ]
+}

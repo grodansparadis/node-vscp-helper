@@ -5,9 +5,14 @@
   "main": "index.js",
   "gypfile": true,
   "scripts": {
-    "build": "node-gyp rebuild",
+    "start": "node index.js",
+    "build:dev": "node-gyp -j 16 build --debug",
+    "build": "node-gyp -j 16 build",
+    "rebuild:dev": "node-gyp -j 16 rebuild --debug",
+    "rebuild": "node-gyp -j 16 rebuild",
     "clean": "node-gyp clean",
-    "test": "test"
+    "lint": "eslint .",
+    "update-dependencies": "ncu -u && npm install"
   },
   "repository": {
     "type": "git",
@@ -15,9 +20,9 @@
   },
   "keywords": [
     "vscp",
-    "floating",
-    "point",
-    "conversions"
+    "automation",
+    "node-red",
+    "m2m"
   ],
   "author": {
     "name": "Ake Hedman, Grodans Paradis AB",
@@ -40,10 +45,16 @@
   },
   "homepage": "https://github.com/grodansparadis/node-vscp-helper#readme",
   "devDependencies": {
-    "node-gyp": "^6.1.0"
+    "eslint": "^6.8.0",
+    "mocha": "^7.1.0",
+    "ncu": "^0.2.1",
+    "node-gyp": "^6.1.0",
+    "npm-check-updates": "^4.0.4",
+    "should": "^13.2.3"
   },
   "dependencies": {
     "bindings": "^1.5.0",
-    "node-addon-api": "^2.0.0"
+    "node-addon-api": "^2.0.0",
+    "util": "^0.12.2"
   }
 }
