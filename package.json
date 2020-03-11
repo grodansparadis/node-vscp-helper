@@ -1,0 +1,49 @@
+{
+  "name": "node-vscp-helper",
+  "version": "1.0.0",
+  "description": "node.js interface to VSCP helper library ",
+  "main": "index.js",
+  "gypfile": true,
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grodansparadis/node-vscp-helper.git"
+  },
+  "keywords": [
+    "vscp",
+    "floating",
+    "point",
+    "conversions"
+  ],
+  "author": {
+    "name": "Ake Hedman, Grodans Paradis AB",
+    "email": "akhe@grodansparadis.com",
+    "url": "https://www.grodansparadis.com"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://www.github.com/grodansparadis"
+  },
+  "contributors": [
+    {
+      "name": "Ake Hedman, Grodans Paradis AB",
+      "url": "https://www.grodansparadis.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grodansparadis/node-vscp-helper/issues"
+  },
+  "homepage": "https://github.com/grodansparadis/node-vscp-helper#readme",
+  "devDependencies": {
+    "node-gyp": "^6.1.0"
+  },
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^2.0.0"
+  }
+}
