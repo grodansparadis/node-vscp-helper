@@ -49,13 +49,13 @@
     "mocha": "^7.2.0",
     "ncu": "^0.2.1",
     "node-gyp": "^6.1.0",
-    "npm-check-updates": "^4.0.4",
+    "npm-check-updates": "^4.1.2",
     "should": "^13.2.3"
   },
   "dependencies": {
     "bindings": "^1.5.0",
     "minimist": "^1.2.5",
-    "node-addon-api": "^2.0.0",
-    "util": "^0.12.2"
+    "node-addon-api": "^2.0.2",
+    "util": "^0.12.3"
   }
 }
