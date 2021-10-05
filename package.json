@@ -1,6 +1,6 @@
 {
   "name": "node-vscp-helper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "node.js interface to VSCP helper library ",
   "main": "index.js",
   "gypfile": true,
