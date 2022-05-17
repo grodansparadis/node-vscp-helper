@@ -1,6 +1,6 @@
 {
   "name": "node-vscp-helper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "node.js interface to VSCP helper library ",
   "main": "index.js",
   "gypfile": true,
@@ -44,16 +44,16 @@
   },
   "homepage": "https://github.com/grodansparadis/node-vscp-helper#readme",
   "devDependencies": {
-    "eslint": ">=6.8.0",
-    "mocha": ">=7.2.0",
-    "node-gyp": ">=6.1.0",
-    "npm-check-updates": ">=4.1.2",
+    "eslint": ">=8.15.0",
+    "mocha": ">=10.0.0",
+    "node-gyp": ">=9.0.0",
+    "npm-check-updates": ">=13.0.0",
     "should": ">=13.2.3"
   },
   "dependencies": {
     "bindings": ">=1.5.0",
-    "minimist": ">=1.2.5",
-    "node-addon-api": ">=2.0.2",
-    "util": ">=0.12.3"
+    "minimist": ">=1.2.6",
+    "node-addon-api": ">=5.0.0",
+    "util": ">=0.12.4"
   }
 }
