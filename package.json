@@ -44,16 +44,16 @@
   },
   "homepage": "https://github.com/grodansparadis/node-vscp-helper#readme",
   "devDependencies": {
-    "eslint": ">=8.15.0",
-    "mocha": ">=10.0.0",
-    "node-gyp": ">=9.0.0",
-    "npm-check-updates": ">=13.0.0",
+    "eslint": ">=9.39.1",
+    "mocha": ">=11.7.5",
+    "node-gyp": ">=12.1.0",
+    "npm-check-updates": ">=19.1.2",
     "should": ">=13.2.3"
   },
   "dependencies": {
     "bindings": ">=1.5.0",
-    "minimist": ">=1.2.6",
-    "node-addon-api": ">=5.0.0",
-    "util": ">=0.12.4"
+    "minimist": ">=1.2.8",
+    "node-addon-api": ">=8.5.0",
+    "util": ">=0.12.5"
   }
 }
