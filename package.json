@@ -45,7 +45,7 @@
   "homepage": "https://github.com/grodansparadis/node-vscp-helper#readme",
   "devDependencies": {
     "eslint": ">=9.39.1",
-    "mocha": ">=11.7.5",
+    "mocha": "^11.3.0",
     "node-gyp": ">=12.1.0",
     "npm-check-updates": ">=19.1.2",
     "should": ">=13.2.3"

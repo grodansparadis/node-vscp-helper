@@ -106,3 +106,7 @@ dist
 node_modules
 *.log
 build
+
+
+#Ignore vscode AI rules
+.github/instructions/codacy.instructions.md
