@@ -26,11 +26,4 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 //
-
-
-const vscpHelper = require('./build/Release/vscphelper.node');
-
-console.log('addon',vscpHelper);
-console.log(vscpHelper.hello())
-
-module.exports = vscpHelper;
+module.exports = require('bindings')('vscphelper');

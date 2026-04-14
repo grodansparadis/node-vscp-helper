@@ -37,6 +37,17 @@ const vscp = require("node-vscp");
 ```
 
 
+## Testing
+
+Run the local smoke tests with
+
+```bash
+npm test
+```
+
+This rebuilds the native addon and runs the Mocha suite.
+
+
 
 ---
 

@@ -5,13 +5,15 @@
   "main": "index.js",
   "gypfile": true,
   "scripts": {
-    "start": "node index.js",
+    "start": "node -e \"const helper = require('./'); console.log(helper.hello())\"",
     "build:dev": "node-gyp -j 16 build --debug",
     "build": "node-gyp -j 16 build",
     "rebuild:dev": "node-gyp -j 16 rebuild --debug",
     "rebuild": "node-gyp -j 16 rebuild",
     "clean": "node-gyp clean",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "npm run rebuild && npm run test:unit",
+    "test:unit": "mocha \"test/**/*.test.js\""
   },
   "repository": {
     "type": "git",
