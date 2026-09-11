@@ -1,6 +1,6 @@
 # node-vscp-helper
 
-<img src="https://vscp.org/images/logo.png" width="100">
+![](https://vscp.org/images/logo_100.png)
 
 Utility and helper functions for VSCP applications
 
@@ -51,7 +51,7 @@ This rebuilds the native addon and runs the Mocha suite.
 
 ---
 
-This package is part of the [VSCP(Very Simple Control Protocol)](https://www.vscp.org) IoT framework.
+This package is part of the [VSCP(Very Simple Control Protocol)](https://www.vscp.org) IoT/M2M framework.
 
 
 
