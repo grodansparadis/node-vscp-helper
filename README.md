@@ -6,6 +6,9 @@ Utility and helper functions for VSCP applications
 
 If you are new to VSCP you can find more info [here](https://www.vscp.org).
 
+## Documentation
+Documentation for this package is [here](https://docs.vscp.org/#vscphelper)
+
 
 ## Install
 
