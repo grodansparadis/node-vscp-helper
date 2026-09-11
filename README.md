@@ -1,6 +1,6 @@
 # node-vscp-helper
 
-![](https://vscp.org/images/logo_100.png)
+![VSCP Logo](https://vscp.org/images/logo_100.png)
 
 Utility and helper functions for VSCP applications
 
