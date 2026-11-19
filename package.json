@@ -60,6 +60,11 @@
     "util": ">=0.12.5"
   },
   "overrides": {
+    "minimatch": "11.0.1",
+    "brace-expansion@^5.0.5": "5.0.12",
+    "mocha": {
+      "glob": "13.0.6"
+    },
     "serialize-javascript": "7.0.5"
   }
 }
