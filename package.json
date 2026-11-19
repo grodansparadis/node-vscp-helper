@@ -54,6 +54,7 @@
   },
   "dependencies": {
     "bindings": ">=1.5.0",
+    "koffi": "3.3.7",
     "minimist": ">=1.2.8",
     "node-addon-api": ">=8.5.0",
     "util": ">=0.12.5"

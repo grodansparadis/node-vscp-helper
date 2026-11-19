@@ -1,0 +1,1290 @@
+{
+  "vscphlp_blockingReceiveEvent": [
+    "int",
+    [
+      "long",
+      "void *",
+      "unsigned long"
+    ]
+  ],
+  "vscphlp_blockingReceiveEventEx": [
+    "int",
+    [
+      "long",
+      "void *",
+      "unsigned long"
+    ]
+  ],
+  "vscphlp_calc_crc_Event": [
+    "unsigned short",
+    [
+      "void *",
+      "short"
+    ]
+  ],
+  "vscphlp_calc_crc_EventEx": [
+    "unsigned short",
+    [
+      "void *",
+      "short"
+    ]
+  ],
+  "vscphlp_calcCRC4GUIDArray": [
+    "unsigned char",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_calcCRC4GUIDString": [
+    "unsigned char",
+    [
+      "str"
+    ]
+  ],
+  "vscphlp_checkReply": [
+    "int",
+    [
+      "long",
+      "int"
+    ]
+  ],
+  "vscphlp_clearDaemonEventQueue": [
+    "int",
+    [
+      "long"
+    ]
+  ],
+  "vscphlp_clearDatagramClientQueue": [
+    "int",
+    [
+      "long"
+    ]
+  ],
+  "vscphlp_clearLocalInputQueue": [
+    "int",
+    [
+      "long"
+    ]
+  ],
+  "vscphlp_clearVSCPFilter": [
+    "void",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_close": [
+    "int",
+    [
+      "long"
+    ]
+  ],
+  "vscphlp_closeDatagramClient": [
+    "int",
+    [
+      "long"
+    ]
+  ],
+  "vscphlp_closeSession": [
+    "void",
+    [
+      "long"
+    ]
+  ],
+  "vscphlp_configureDatagramClient": [
+    "int",
+    [
+      "long",
+      "str"
+    ]
+  ],
+  "vscphlp_configureLogging": [
+    "int",
+    [
+      "int",
+      "int",
+      "str",
+      "size_t",
+      "size_t"
+    ]
+  ],
+  "vscphlp_connectDatagramClient": [
+    "int",
+    [
+      "long"
+    ]
+  ],
+  "vscphlp_convertCanalToEvent": [
+    "int",
+    [
+      "void *",
+      "void *",
+      "void *"
+    ]
+  ],
+  "vscphlp_convertCanalToEventEx": [
+    "int",
+    [
+      "void *",
+      "void *",
+      "void *"
+    ]
+  ],
+  "vscphlp_convertEventExToCanal": [
+    "int",
+    [
+      "void *",
+      "void *"
+    ]
+  ],
+  "vscphlp_convertEventExToHTML": [
+    "int",
+    [
+      "void *",
+      "void *",
+      "size_t"
+    ]
+  ],
+  "vscphlp_convertEventExToJSON": [
+    "int",
+    [
+      "void *",
+      "void *",
+      "size_t"
+    ]
+  ],
+  "vscphlp_convertEventExToString": [
+    "int",
+    [
+      "void *",
+      "void *",
+      "size_t"
+    ]
+  ],
+  "vscphlp_convertEventExToXML": [
+    "int",
+    [
+      "void *",
+      "void *",
+      "size_t"
+    ]
+  ],
+  "vscphlp_convertEventToCanal": [
+    "int",
+    [
+      "void *",
+      "void *"
+    ]
+  ],
+  "vscphlp_convertEventToHTML": [
+    "int",
+    [
+      "void *",
+      "void *",
+      "size_t"
+    ]
+  ],
+  "vscphlp_convertEventToJSON": [
+    "int",
+    [
+      "void *",
+      "void *",
+      "size_t"
+    ]
+  ],
+  "vscphlp_convertEventToString": [
+    "int",
+    [
+      "void *",
+      "void *",
+      "size_t"
+    ]
+  ],
+  "vscphlp_convertEventToXML": [
+    "int",
+    [
+      "void *",
+      "void *",
+      "size_t"
+    ]
+  ],
+  "vscphlp_convertFloatToFloatEventData": [
+    "int",
+    [
+      "void *",
+      "void *",
+      "float",
+      "unsigned char",
+      "unsigned char"
+    ]
+  ],
+  "vscphlp_convertFloatToNormalizedEventData": [
+    "int",
+    [
+      "void *",
+      "void *",
+      "double",
+      "unsigned char",
+      "unsigned char"
+    ]
+  ],
+  "vscphlp_convertLevel1MeasuremenToLevel2Double": [
+    "int",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_convertLevel1MeasuremenToLevel2DoubleEx": [
+    "int",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_convertLevel1MeasuremenToLevel2String": [
+    "int",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_convertLevel1MeasuremenToLevel2StringEx": [
+    "int",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_convertStringToEvent": [
+    "int",
+    [
+      "void *",
+      "str"
+    ]
+  ],
+  "vscphlp_convertStringToEventEx": [
+    "int",
+    [
+      "void *",
+      "str"
+    ]
+  ],
+  "vscphlp_convertVSCPfromEx": [
+    "int",
+    [
+      "void *",
+      "void *"
+    ]
+  ],
+  "vscphlp_convertVSCPtoEx": [
+    "int",
+    [
+      "void *",
+      "void *"
+    ]
+  ],
+  "vscphlp_copyVSCPEvent": [
+    "int",
+    [
+      "void *",
+      "void *"
+    ]
+  ],
+  "vscphlp_copyVSCPFilter": [
+    "void",
+    [
+      "void *",
+      "void *"
+    ]
+  ],
+  "vscphlp_decryptFrameV1": [
+    "int",
+    [
+      "void *",
+      "size_t",
+      "void *",
+      "void *",
+      "size_t",
+      "void *",
+      "size_t",
+      "void *",
+      "size_t"
+    ]
+  ],
+  "vscphlp_decryptVscpUdpFrame": [
+    "int",
+    [
+      "void *",
+      "void *",
+      "size_t",
+      "void *",
+      "void *",
+      "unsigned char"
+    ]
+  ],
+  "vscphlp_deleteVSCPevent": [
+    "void",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_deleteVSCPevent_v2": [
+    "void",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_deleteVSCPeventEx": [
+    "void",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_disableLogging": [
+    "int",
+    []
+  ],
+  "vscphlp_disconnectDatagramClient": [
+    "int",
+    [
+      "long"
+    ]
+  ],
+  "vscphlp_doCmdBinary": [
+    "int",
+    [
+      "long"
+    ]
+  ],
+  "vscphlp_doCommand": [
+    "int",
+    [
+      "long",
+      "str"
+    ]
+  ],
+  "vscphlp_doLevel2Filter": [
+    "int",
+    [
+      "void *",
+      "void *"
+    ]
+  ],
+  "vscphlp_enableTLS": [
+    "int",
+    [
+      "long",
+      "int"
+    ]
+  ],
+  "vscphlp_encryptFrameV1": [
+    "int",
+    [
+      "void *",
+      "size_t",
+      "void *",
+      "void *",
+      "size_t",
+      "void *",
+      "size_t",
+      "void *",
+      "size_t",
+      "void *",
+      "size_t",
+      "int"
+    ]
+  ],
+  "vscphlp_encryptVscpUdpFrame": [
+    "int",
+    [
+      "void *",
+      "void *",
+      "size_t",
+      "void *",
+      "void *",
+      "unsigned char"
+    ]
+  ],
+  "vscphlp_enterReceiveLoop": [
+    "int",
+    [
+      "long"
+    ]
+  ],
+  "vscphlp_flushLogging": [
+    "int",
+    []
+  ],
+  "vscphlp_freeBinaryFrame": [
+    "void",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_getBinarySecurity": [
+    "int",
+    [
+      "long",
+      "void *"
+    ]
+  ],
+  "vscphlp_getCANALidFromData": [
+    "unsigned long",
+    [
+      "unsigned char",
+      "unsigned short",
+      "unsigned short"
+    ]
+  ],
+  "vscphlp_getCANALidFromEvent": [
+    "unsigned long",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_getCANALidFromEventEx": [
+    "unsigned long",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_getDataCodingBitArray": [
+    "unsigned long long",
+    [
+      "void *",
+      "int"
+    ]
+  ],
+  "vscphlp_getDataCodingInteger": [
+    "unsigned long long",
+    [
+      "void *",
+      "int"
+    ]
+  ],
+  "vscphlp_getDataCodingNormalizedInteger": [
+    "double",
+    [
+      "void *",
+      "int"
+    ]
+  ],
+  "vscphlp_getDataCodingString": [
+    "int",
+    [
+      "void *",
+      "unsigned char",
+      "void *",
+      "size_t"
+    ]
+  ],
+  "vscphlp_getDatagramClientCount": [
+    "int",
+    [
+      "long",
+      "void *"
+    ]
+  ],
+  "vscphlp_getDateStringFromEvent": [
+    "int",
+    [
+      "void *",
+      "size_t",
+      "void *"
+    ]
+  ],
+  "vscphlp_getDateStringFromEventEx": [
+    "int",
+    [
+      "void *",
+      "size_t",
+      "void *"
+    ]
+  ],
+  "vscphlp_getDLLVersion": [
+    "int",
+    [
+      "long",
+      "void *"
+    ]
+  ],
+  "vscphlp_getDriverInfo": [
+    "int",
+    [
+      "long",
+      "void *",
+      "size_t"
+    ]
+  ],
+  "vscphlp_getEncryptionCodeFromToken": [
+    "int",
+    [
+      "str",
+      "void *"
+    ]
+  ],
+  "vscphlp_getEncryptionTokenFromCode": [
+    "int",
+    [
+      "int",
+      "void *",
+      "size_t"
+    ]
+  ],
+  "vscphlp_getGUID": [
+    "int",
+    [
+      "long",
+      "void *"
+    ]
+  ],
+  "vscphlp_getGuidFromString": [
+    "int",
+    [
+      "void *",
+      "str"
+    ]
+  ],
+  "vscphlp_getGuidFromStringEx": [
+    "int",
+    [
+      "void *",
+      "str"
+    ]
+  ],
+  "vscphlp_getGuidFromStringToArray": [
+    "int",
+    [
+      "void *",
+      "str"
+    ]
+  ],
+  "vscphlp_getISOTimeString": [
+    "int",
+    [
+      "void *",
+      "size_t",
+      "void *"
+    ]
+  ],
+  "vscphlp_getLastLoggingError": [
+    "str",
+    []
+  ],
+  "vscphlp_getMeasuremenSensorIndex": [
+    "int",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_getMeasurementAsFloat": [
+    "int",
+    [
+      "void *",
+      "unsigned char",
+      "void *"
+    ]
+  ],
+  "vscphlp_getMeasurementDataCoding": [
+    "unsigned char",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_getMeasurementSubZone": [
+    "int",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_getMeasurementUnit": [
+    "int",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_getMeasurementZone": [
+    "int",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_getStatistics": [
+    "int",
+    [
+      "long",
+      "void *"
+    ]
+  ],
+  "vscphlp_getStatus": [
+    "int",
+    [
+      "long",
+      "void *"
+    ]
+  ],
+  "vscphlp_getTimeString": [
+    "int",
+    [
+      "void *",
+      "size_t",
+      "void *"
+    ]
+  ],
+  "vscphlp_getTLSMode": [
+    "int",
+    [
+      "long",
+      "void *"
+    ]
+  ],
+  "vscphlp_getUDpFrameSizeFromEvent": [
+    "size_t",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_getUDpFrameSizeFromEventEx": [
+    "size_t",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_getVendorString": [
+    "int",
+    [
+      "long",
+      "void *",
+      "size_t"
+    ]
+  ],
+  "vscphlp_getVersion": [
+    "int",
+    [
+      "long",
+      "void *",
+      "void *",
+      "void *"
+    ]
+  ],
+  "vscphlp_getVersionString": [
+    "str",
+    []
+  ],
+  "vscphlp_getVSCPclassFromCANALid": [
+    "unsigned short",
+    [
+      "unsigned long"
+    ]
+  ],
+  "vscphlp_getVscpDataArrayFromString": [
+    "int",
+    [
+      "void *",
+      "void *",
+      "str"
+    ]
+  ],
+  "vscphlp_getVscpDataFromString": [
+    "int",
+    [
+      "void *",
+      "str"
+    ]
+  ],
+  "vscphlp_getVSCPheadFromCANALid": [
+    "unsigned char",
+    [
+      "unsigned long"
+    ]
+  ],
+  "vscphlp_getVSCPMeasurementAsDouble": [
+    "int",
+    [
+      "void *",
+      "void *"
+    ]
+  ],
+  "vscphlp_getVSCPMeasurementAsString": [
+    "int",
+    [
+      "void *",
+      "void *",
+      "size_t"
+    ]
+  ],
+  "vscphlp_getVSCPMeasurementFloat64AsString": [
+    "int",
+    [
+      "void *",
+      "void *",
+      "size_t"
+    ]
+  ],
+  "vscphlp_getVSCPnicknameFromCANALid": [
+    "unsigned char",
+    [
+      "unsigned long"
+    ]
+  ],
+  "vscphlp_getVscpPriority": [
+    "unsigned char",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_getVscpPriorityEx": [
+    "unsigned char",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_getVSCPtypeFromCANALid": [
+    "unsigned short",
+    [
+      "unsigned long"
+    ]
+  ],
+  "vscphlp_isBinaryMode": [
+    "int",
+    [
+      "long",
+      "void *"
+    ]
+  ],
+  "vscphlp_isConnected": [
+    "int",
+    [
+      "long"
+    ]
+  ],
+  "vscphlp_isDataAvailable": [
+    "int",
+    [
+      "long",
+      "void *"
+    ]
+  ],
+  "vscphlp_isDatagramClientConnected": [
+    "int",
+    [
+      "long",
+      "void *"
+    ]
+  ],
+  "vscphlp_isGUIDEmpty": [
+    "int",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_isMeasurement": [
+    "int",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_isSameGUID": [
+    "int",
+    [
+      "void *",
+      "void *"
+    ]
+  ],
+  "vscphlp_isSingleChannelReceiveLoopEnabled": [
+    "int",
+    [
+      "long",
+      "void *"
+    ]
+  ],
+  "vscphlp_makeFloatMeasurementEvent": [
+    "int",
+    [
+      "void *",
+      "float",
+      "unsigned char",
+      "unsigned char"
+    ]
+  ],
+  "vscphlp_makeFloatMeasurementEventEx": [
+    "int",
+    [
+      "void *",
+      "float",
+      "unsigned char",
+      "unsigned char"
+    ]
+  ],
+  "vscphlp_makeLevel2FloatMeasurementEvent": [
+    "int",
+    [
+      "void *",
+      "uint16_t",
+      "double",
+      "uint8_t",
+      "uint8_t",
+      "uint8_t",
+      "uint8_t"
+    ]
+  ],
+  "vscphlp_makeLevel2FloatMeasurementEventEx": [
+    "int",
+    [
+      "void *",
+      "uint16_t",
+      "double",
+      "uint8_t",
+      "uint8_t",
+      "uint8_t",
+      "uint8_t"
+    ]
+  ],
+  "vscphlp_makeLevel2StringMeasurementEvent": [
+    "int",
+    [
+      "void *",
+      "uint16_t",
+      "double",
+      "uint8_t",
+      "uint8_t",
+      "uint8_t",
+      "uint8_t"
+    ]
+  ],
+  "vscphlp_makeLevel2StringMeasurementEventEx": [
+    "int",
+    [
+      "void *",
+      "uint16_t",
+      "double",
+      "uint8_t",
+      "uint8_t",
+      "uint8_t",
+      "uint8_t"
+    ]
+  ],
+  "vscphlp_makeStringMeasurementEvent": [
+    "int",
+    [
+      "void *",
+      "float",
+      "unsigned char",
+      "unsigned char"
+    ]
+  ],
+  "vscphlp_makeStringMeasurementEventEx": [
+    "int",
+    [
+      "void *",
+      "float",
+      "unsigned char",
+      "unsigned char"
+    ]
+  ],
+  "vscphlp_makeTimeStamp": [
+    "unsigned long",
+    []
+  ],
+  "vscphlp_newMulticastClient": [
+    "long",
+    []
+  ],
+  "vscphlp_newSession": [
+    "long",
+    []
+  ],
+  "vscphlp_newUdpClient": [
+    "long",
+    []
+  ],
+  "vscphlp_newVSCPevent": [
+    "int",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_noop": [
+    "int",
+    [
+      "long"
+    ]
+  ],
+  "vscphlp_open": [
+    "int",
+    [
+      "long",
+      "str",
+      "str",
+      "str"
+    ]
+  ],
+  "vscphlp_openInterface": [
+    "int",
+    [
+      "long",
+      "str",
+      "unsigned long"
+    ]
+  ],
+  "vscphlp_parseGuid": [
+    "int",
+    [
+      "void *",
+      "str"
+    ]
+  ],
+  "vscphlp_quitReceiveLoop": [
+    "int",
+    [
+      "long"
+    ]
+  ],
+  "vscphlp_readFilterFromString": [
+    "int",
+    [
+      "void *",
+      "str"
+    ]
+  ],
+  "vscphlp_readMaskFromString": [
+    "int",
+    [
+      "void *",
+      "str"
+    ]
+  ],
+  "vscphlp_readStringValue": [
+    "unsigned long",
+    [
+      "str"
+    ]
+  ],
+  "vscphlp_receiveBinaryFrame": [
+    "int",
+    [
+      "long",
+      "void *",
+      "void *",
+      "uint32_t"
+    ]
+  ],
+  "vscphlp_receiveDatagramEventEx": [
+    "int",
+    [
+      "long",
+      "void *",
+      "long"
+    ]
+  ],
+  "vscphlp_receiveEvent": [
+    "int",
+    [
+      "long",
+      "void *"
+    ]
+  ],
+  "vscphlp_receiveEventEx": [
+    "int",
+    [
+      "long",
+      "void *"
+    ]
+  ],
+  "vscphlp_replaceBackslash": [
+    "int",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_reverseGUID": [
+    "int",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_sendBinaryFrame": [
+    "int",
+    [
+      "long",
+      "void *",
+      "size_t"
+    ]
+  ],
+  "vscphlp_sendDatagramEventEx": [
+    "int",
+    [
+      "long",
+      "void *"
+    ]
+  ],
+  "vscphlp_sendEvent": [
+    "int",
+    [
+      "long",
+      "void *"
+    ]
+  ],
+  "vscphlp_sendEventEx": [
+    "int",
+    [
+      "long",
+      "void *"
+    ]
+  ],
+  "vscphlp_serverShutDown": [
+    "int",
+    [
+      "long"
+    ]
+  ],
+  "vscphlp_setAfterCommandSleep": [
+    "int",
+    [
+      "long",
+      "unsigned short"
+    ]
+  ],
+  "vscphlp_setBinarySecurity": [
+    "int",
+    [
+      "long",
+      "int",
+      "void *",
+      "size_t",
+      "void *",
+      "size_t"
+    ]
+  ],
+  "vscphlp_setDatagramClientFilter": [
+    "int",
+    [
+      "long",
+      "void *"
+    ]
+  ],
+  "vscphlp_setEventDateTimeBlockToNow": [
+    "int",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_setEventExDateTimeBlockToNow": [
+    "int",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_setEventExToNow": [
+    "int",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_setEventToNow": [
+    "int",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_setFilter": [
+    "int",
+    [
+      "long",
+      "void *"
+    ]
+  ],
+  "vscphlp_setGUID": [
+    "int",
+    [
+      "long",
+      "void *"
+    ]
+  ],
+  "vscphlp_setResponseTimeout": [
+    "int",
+    [
+      "long",
+      "unsigned long"
+    ]
+  ],
+  "vscphlp_setSingleChannelReceiveLoop": [
+    "int",
+    [
+      "long",
+      "int"
+    ]
+  ],
+  "vscphlp_setTLSAutoSelect": [
+    "int",
+    [
+      "long"
+    ]
+  ],
+  "vscphlp_setTLSMode": [
+    "int",
+    [
+      "long",
+      "int"
+    ]
+  ],
+  "vscphlp_setTLSOptions": [
+    "int",
+    [
+      "long",
+      "int",
+      "str",
+      "str",
+      "str",
+      "str",
+      "str"
+    ]
+  ],
+  "vscphlp_setVscpDataArrayFromString": [
+    "int",
+    [
+      "void *",
+      "void *",
+      "str"
+    ]
+  ],
+  "vscphlp_setVscpDataFromString": [
+    "int",
+    [
+      "void *",
+      "str"
+    ]
+  ],
+  "vscphlp_setVscpEventExFromString": [
+    "int",
+    [
+      "void *",
+      "str"
+    ]
+  ],
+  "vscphlp_setVscpEventFromString": [
+    "int",
+    [
+      "void *",
+      "str"
+    ]
+  ],
+  "vscphlp_setVscpPriority": [
+    "void",
+    [
+      "void *",
+      "unsigned char"
+    ]
+  ],
+  "vscphlp_setVscpPriorityEx": [
+    "void",
+    [
+      "void *",
+      "unsigned char"
+    ]
+  ],
+  "vscphlp_writeEventExToUdpFrame": [
+    "int",
+    [
+      "void *",
+      "size_t",
+      "unsigned char",
+      "void *"
+    ]
+  ],
+  "vscphlp_writeEventToUdpFrame": [
+    "int",
+    [
+      "void *",
+      "size_t",
+      "unsigned char",
+      "void *"
+    ]
+  ],
+  "vscphlp_writeFilterToString": [
+    "int",
+    [
+      "void *",
+      "void *"
+    ]
+  ],
+  "vscphlp_writeGuidArrayToString": [
+    "int",
+    [
+      "void *",
+      "void *",
+      "size_t"
+    ]
+  ],
+  "vscphlp_writeGuidToString": [
+    "int",
+    [
+      "void *",
+      "void *",
+      "size_t"
+    ]
+  ],
+  "vscphlp_writeGuidToString4Rows": [
+    "int",
+    [
+      "void *",
+      "void *",
+      "size_t"
+    ]
+  ],
+  "vscphlp_writeGuidToString4RowsEx": [
+    "int",
+    [
+      "void *",
+      "void *",
+      "size_t"
+    ]
+  ],
+  "vscphlp_writeGuidToStringEx": [
+    "int",
+    [
+      "void *",
+      "void *",
+      "size_t"
+    ]
+  ],
+  "vscphlp_writeMaskToString": [
+    "int",
+    [
+      "void *",
+      "void *"
+    ]
+  ],
+  "vscphlp_writeVscpDataToString": [
+    "int",
+    [
+      "void *",
+      "void *",
+      "size_t",
+      "int"
+    ]
+  ],
+  "vscphlp_writeVscpDataWithSizeToString": [
+    "int",
+    [
+      "void *",
+      "void *",
+      "unsigned short",
+      "size_t",
+      "int",
+      "int"
+    ]
+  ],
+  "vscphlp_writeVscpEventExToString": [
+    "int",
+    [
+      "void *",
+      "void *",
+      "size_t"
+    ]
+  ],
+  "vscphlp_writeVscpEventToString": [
+    "int",
+    [
+      "void *",
+      "void *",
+      "size_t"
+    ]
+  ]
+}

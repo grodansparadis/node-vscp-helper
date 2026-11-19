@@ -53,5 +53,6 @@
         "cinttypes": "cpp",
         "typeinfo": "cpp"
     },
-    "C_Cpp.default.configurationProvider": "nrf-connect"
+    "C_Cpp.default.configurationProvider": "nrf-connect",
+    "cmake.sourceDirectory": "/home/akhe/development/VSCP/node-vscp-helper/third-party/vscp-helper-lib"
 }
