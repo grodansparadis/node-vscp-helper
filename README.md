@@ -150,6 +150,30 @@ helpers operate on the inner frame, without the version/length prefix; the
 caller must validate the prefix and expected algorithm when transporting it.
 Decryption retains the encryption nibble.
 
+## Measurement unit conversion
+
+All measurement classes use the types and units of CLASS1.MEASUREMENT. The
+unit table is built into the helper library (16.0.0.292 or later); the
+conversion expressions of `vscp-units.json` can be loaded at runtime instead.
+Units that can not be converted (latitude/longitude, ppm, ...) give status 17
+(`VSCP_ERROR_NOT_SUPPORTED`).
+
+```js
+const api = require('node-vscp-helper').loadHelper();
+
+// 25 degrees Celsius (unit 1) to Fahrenheit (unit 2), temperature (type 6)
+const [status, fahrenheit] = api.convertMeasurementUnit(6, 1, 2, 25);   // [0, 77]
+const [, info] = api.getMeasurementUnitInfo(6, 1);
+// { name: 'Celsius', symbolAscii: 'C', symbolUtf8: '°C', convertible: true }
+
+// Value and unit from a measurement event
+const [, kelvin] = api.convertMeasurementEx(event, 0);
+
+// The same with expressions loaded at runtime
+api.loadUnitExpressions('vscp-units.json');
+const [, f] = api.convertMeasurementUnitExpr(6, 1, 2, 25);
+```
+
 ## API and ownership
 
 Convenience operations include:
@@ -158,6 +182,9 @@ Convenience operations include:
   `setBinarySecurity`, `getBinarySecurity`, `sendBinaryFrame`, and
   `receiveBinaryFrame`.
 * `sendEventEx`, `receiveEventEx`, and `blockingReceiveEventEx`.
+* `convertMeasurementUnit`, `getMeasurementUnitInfo`, `convertMeasurementEx`,
+  `loadUnitExpressions`, `loadUnitExpressionsFromString`,
+  `convertMeasurementUnitExpr`, and `evalUnitExpression`.
 * `newUdpClient`, `newMulticastClient`, `configureDatagramClient`,
   `connectDatagramClient`, `disconnectDatagramClient`, `closeDatagramClient`,
   `isDatagramClientConnected`, `sendDatagramEventEx`,

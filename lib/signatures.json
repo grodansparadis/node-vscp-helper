@@ -251,6 +251,42 @@
       "void *"
     ]
   ],
+  "vscphlp_convertMeasurement": [
+    "int",
+    [
+      "void *",
+      "unsigned char",
+      "void *"
+    ]
+  ],
+  "vscphlp_convertMeasurementEx": [
+    "int",
+    [
+      "void *",
+      "unsigned char",
+      "void *"
+    ]
+  ],
+  "vscphlp_convertMeasurementUnit": [
+    "int",
+    [
+      "unsigned short",
+      "unsigned char",
+      "unsigned char",
+      "double",
+      "void *"
+    ]
+  ],
+  "vscphlp_convertMeasurementUnitExpr": [
+    "int",
+    [
+      "unsigned short",
+      "unsigned char",
+      "unsigned char",
+      "double",
+      "void *"
+    ]
+  ],
   "vscphlp_convertStringToEvent": [
     "int",
     [
@@ -405,6 +441,14 @@
     "int",
     [
       "long"
+    ]
+  ],
+  "vscphlp_evalUnitExpression": [
+    "int",
+    [
+      "str",
+      "double",
+      "void *"
     ]
   ],
   "vscphlp_flushLogging": [
@@ -596,6 +640,20 @@
   "vscphlp_getMeasurementUnit": [
     "int",
     [
+      "void *"
+    ]
+  ],
+  "vscphlp_getMeasurementUnitInfo": [
+    "int",
+    [
+      "unsigned short",
+      "unsigned char",
+      "void *",
+      "size_t",
+      "void *",
+      "size_t",
+      "void *",
+      "size_t",
       "void *"
     ]
   ],
@@ -792,6 +850,18 @@
     [
       "long",
       "void *"
+    ]
+  ],
+  "vscphlp_loadUnitExpressions": [
+    "int",
+    [
+      "str"
+    ]
+  ],
+  "vscphlp_loadUnitExpressionsFromString": [
+    "int",
+    [
+      "str"
     ]
   ],
   "vscphlp_makeFloatMeasurementEvent": [

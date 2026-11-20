@@ -7,6 +7,7 @@ tagged, rename **Unreleased** to the version and date, and start a new
 
 ## Unreleased
 
+- Measurement unit conversion: `convertMeasurementUnit`, `getMeasurementUnitInfo`, `convertMeasurementEx` (unit table of the helper library) and `loadUnitExpressions`, `loadUnitExpressionsFromString`, `convertMeasurementUnitExpr`, `evalUnitExpression` (expressions loaded at runtime). Needs libvscphelper 16.0.0.292 or later; vscp-helper-lib submodule and signatures updated. Tests in test/units.test.js
 - Added tests (929a68f)
 - Security updates (69ec5bf)
 - added packa-lock again (24b0353)
