@@ -7,6 +7,7 @@ tagged, rename **Unreleased** to the version and date, and start a new
 
 ## Unreleased
 
+- Bindings for all 191 helper functions: vscp-helper-lib dd468b3 exports the functions that were declared under other names (`vscphlp_getMeasurementSensorIndex`, `vscphlp_convertLevel1MeasurementToLevel2*`, `vscphlp_shutDownServer`) and the 12 that were missing (UDP frame, encryption token, data-from-string and set-to-now functions); signatures regenerated
 - Measurement unit conversion: `convertMeasurementUnit`, `getMeasurementUnitInfo`, `convertMeasurementEx` (unit table of the helper library) and `loadUnitExpressions`, `loadUnitExpressionsFromString`, `convertMeasurementUnitExpr`, `evalUnitExpression` (expressions loaded at runtime). Needs libvscphelper 16.0.0.292 or later; vscp-helper-lib submodule and signatures updated. Tests in test/units.test.js
 - Added tests (929a68f)
 - Security updates (69ec5bf)

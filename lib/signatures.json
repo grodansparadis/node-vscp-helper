@@ -251,6 +251,30 @@
       "void *"
     ]
   ],
+  "vscphlp_convertLevel1MeasurementToLevel2Double": [
+    "int",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_convertLevel1MeasurementToLevel2DoubleEx": [
+    "int",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_convertLevel1MeasurementToLevel2String": [
+    "int",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_convertLevel1MeasurementToLevel2StringEx": [
+    "int",
+    [
+      "void *"
+    ]
+  ],
   "vscphlp_convertMeasurement": [
     "int",
     [
@@ -627,6 +651,12 @@
   ],
   "vscphlp_getMeasurementDataCoding": [
     "unsigned char",
+    [
+      "void *"
+    ]
+  ],
+  "vscphlp_getMeasurementSensorIndex": [
+    "int",
     [
       "void *"
     ]
@@ -1247,6 +1277,12 @@
     [
       "void *",
       "unsigned char"
+    ]
+  ],
+  "vscphlp_shutDownServer": [
+    "int",
+    [
+      "long"
     ]
   ],
   "vscphlp_writeEventExToUdpFrame": [
